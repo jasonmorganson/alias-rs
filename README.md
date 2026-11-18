@@ -44,13 +44,13 @@ als init fish | source
 
 ### Nushell
 
-Add the following to the end of your Nushell env file (find it by running $nu.env-path in Nushell)::
+Add the following to the end of your Nushell env file (find it by running $nu.env-path in Nushell):
 ```shell
 mkdir ~/.cache/als
 als init nu | save -f ~/.cache/als/init.nu
 ```
 
-And add the following to the end of your Nushell configuration (find it by running $nu.config-path)::
+And add the following to the end of your Nushell configuration (find it by running $nu.config-path):
 ```shell
 source ~/.cache/als/init.nu
 ```
